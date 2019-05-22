@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-img img {
+    width: 10%;
+}
+
+.container {
+    background-color: rgb(2, 148, 216);
+    color: white;
+    padding: 10px;
+    width: 75%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.landing {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+    <title>Find a Doc</title>
+</head>
+<body>
+    <nav>
+        <div>Find A Doc</div>
+    </nav>
+    <section class="container">
+        <header>
+            <h3 class="hero-img"><img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/medical-88-113680.png" alt="Image of a stethoscope" /></h3>
+            <h3>Enter your location and other info and find a doctor right away!</h3>
+        </header>
+        <form class="landing">
+            <label for="location">Location</label>
+            <input type="text" id="doctorLocation" placeholder="ex. New York, NY" required>
+            <label for="specialization">Specialization</label>
+            <input type="text" id="special" placeholder="ex. Pediatrician">
+            <label for="complaint">Main Complaint</label>
+            <input type="text" id="symptom" placeholder="ex. Headache">
+            <input type="submit" value="Find Doctors">
+        </form>
+    </section>
+    <form class="another-search">
+    </form>
+    <section class="display-doctors">
+    </section>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.js"
+    integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+    crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
