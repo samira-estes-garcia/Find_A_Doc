@@ -7,13 +7,36 @@ html, body {
     background-position: center top;
 }
 
+nav {
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    background-color: rgb(2, 148, 216, 0.5);
+    color: white;
+}
+
+nav div {
+    padding-right: 10px;
+}
+
+nav div:hover {
+    color: rgb(243, 37, 19);
+    text-decoration: underline;
+    font-size: 25px;
+}
+
 header {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
-.hero-img img {
-    width: 10%;
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .container {
@@ -24,7 +47,7 @@ header {
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .landing {
@@ -32,4 +55,55 @@ header {
     padding-bottom: 15px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
 }
+
+.landing label {
+    padding-right: 10px;
+}
+
+#doctorLocation, #special, #symptom {
+    margin-right: 10px;
+}
+
+#submit-icon {
+    background-image: url("https://image.flaticon.com/icons/png/512/55/55369.png"); 
+    background-size: cover;
+    border: none;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    color: transparent;
+    background-color: rgb(2, 148, 216);
+    border: 2px solid black;
+  }
+
+  #submit-icon:hover {
+      background-color: white;
+  }
+
+  .display-doctors {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+  }
+
+  .doc-container {
+      border: 1px solid black;
+      display: flex;
+      height: 40%;
+      width: 90%;
+      margin: 15px;
+  }
+
+  .doc-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .prof-bio {
+      padding: 10px;
+  }

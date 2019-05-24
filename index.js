@@ -31,16 +31,24 @@ function displayResults(results) {
     $('.container').css('display', 'none');
     $('html').css('background-image', 'none');
     $('body').css('background-image', 'none');
-    $('.display-doctors').html(`<h2>List of Doctors</h2>`);
+    $('.main-nav').append(`<div>Perfom Another Search</div>`);
+    $('.display-doctors').html(`<h2>Here Are the Best Matches For You!</h2>`);
     for (let i = 0; i < results.length; i++) { 
         $('.display-doctors').append(`
-            <img src="${results[i].profile.image_url}" alt="Image of doctor" />
-            <p>${results[i].profile.first_name} ${results[i].profile.last_name}</p>
+            <div class="doc-container">
+            <div class="prof-img">
+            <img src="${results[i].profile.image_url}" class="doc-img" alt="Image of doctor" />
+            </div>
+            <div class="prof-bio">
+            <p><b>${results[i].practices[0].name}</b></p>
+            <p><b>Speciality:</b> ${results[i].specialties[0].actor}</p>
+            <p><b>Contact:</b> ${results[i].practices[0].phones[0].number}</p>
             <p>${results[i].profile.bio}</p>
+            </div>
+            </div>
             `);
     }
 }
-
 
 watchForm();
 
