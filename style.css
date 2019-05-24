@@ -24,6 +24,7 @@ nav div {
 
 nav a {
     color: white;
+    text-shadow: 1px 1px black;
 }
 
 nav a:hover {
@@ -40,6 +41,7 @@ header {
 header h1 {
     font-size: 3em;
     font-weight: bold;
+    text-shadow: 1px 1px black;
 }
 
 .container {
@@ -55,7 +57,7 @@ header h1 {
 
 .landing {
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     display: flex;
