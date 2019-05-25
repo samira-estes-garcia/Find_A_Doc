@@ -22,9 +22,9 @@ Using the https://api.betterdoctor.com/2016-03-01/doctors?query=INSERT_SYMPTOM&s
 ---
 ![Image](https://i.imgur.com/xR6MYlK.png)
 
-_*Plans For Expansion:*_
+Plans For Expansion:
 * Find doctor location with user zipcode
 * Retrieve doctors' email so the user can email the office
 * Add user profile so they can favorite and save doctors they are interested in
 
-_*Git Pages Live Link:*_ https://samira-estes-garcia.github.io/find_a_doc/
+Git Pages Live Link: https://samira-estes-garcia.github.io/find_a_doc/
