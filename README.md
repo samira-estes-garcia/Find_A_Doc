@@ -25,6 +25,6 @@ Using the https://api.betterdoctor.com/2016-03-01/doctors?query=INSERT_SYMPTOM&s
 Plans For Expansion:
 * Find doctor location with user zipcode
 * Retrieve doctors' email so the user can email the office
-* Add user profile so they can favorite and save doctors they are interested in
+* Add user profiles so they can favorite and save doctors they are interested in
 
 Git Pages Live Link: https://samira-estes-garcia.github.io/find_a_doc/
