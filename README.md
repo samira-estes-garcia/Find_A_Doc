@@ -8,7 +8,7 @@ Using the https://api.betterdoctor.com/2016-03-01/doctors?query=INSERT_SYMPTOM&s
 
 **Find A Doc Landing Page**
 ---
-![Image](https://i.imgur.com/G0GO3Ny.png)
+![Image](https://i.imgur.com/YHc9aui.png)
 
 **Find A Doc Results Page**
 ---
@@ -16,11 +16,11 @@ Using the https://api.betterdoctor.com/2016-03-01/doctors?query=INSERT_SYMPTOM&s
 
 **Find A Doc No Results Found Page**
 ---
-![Image](https://i.imgur.com/iHnjrNO.png)
+![Image](https://i.imgur.com/yc3hadD.png)
 
 **Find A Doc How It Works Page**
 ---
-![Image](https://i.imgur.com/xR6MYlK.png)
+![Image](https://i.imgur.com/5W1mtZ7.png)
 
 Plans For Expansion:
 * Find doctor location with user zipcode
