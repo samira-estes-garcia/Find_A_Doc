@@ -65,5 +65,3 @@ function displayResults(results) {
 }
 
 watchForm();
-
-//Make sure you entered your location correctly! This form only accepts state codes (ex. CA or TX) and location slugs (ex. ca-san-jose or tx-austin)
