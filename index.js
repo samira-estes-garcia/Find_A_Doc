@@ -29,6 +29,7 @@ function findDoctor(specialization, docLocation, symp) {
     })
     .catch((error) => {
         console.log(error);
+        $('.display-doctors').append(`'<div class="no-result" aria-live="polite">Sorry, your search didn't return a match. <a href="index.html">Perform another search</a> to try again! <p class="location-error")>Make sure you entered your location correctly! This form only accepts state codes (ex. CA or TX) and location slugs (ex. ca-san-jose or tx-austin)</p></div>'`)
     });
 }
 
@@ -42,7 +43,7 @@ function displayResults(results) {
     $('body').css('background-image', 'none');
     $('.main-nav').append(`<div><a href="index.html">Perfom Another Search</a></div>`);
     if (results.length === 0) {
-        $('.display-doctors').append(`'<div class="no-result" aria-live="polite">Sorry, your search didn't return a match. <a href="index.html">Perform another search</a> to try again!</div>'`)
+        $('.display-doctors').append(`'<div class="no-result" aria-live="polite">Sorry, your search didn't return a match. <a href="index.html">Perform another search</a> to try again! <p class="location-error")>Make sure you entered your location correctly! This form only accepts state codes (ex. CA or TX) and location slugs (ex. ca-san-jose or tx-austin)</p></div>'`)
     } else {
         $('.display-doctors').html(`<h2>Here Are the Best Matches For You!</h2>`);
         for (let i = 0; i < results.length; i++) { 
@@ -64,3 +65,5 @@ function displayResults(results) {
 }
 
 watchForm();
+
+//Make sure you entered your location correctly! This form only accepts state codes (ex. CA or TX) and location slugs (ex. ca-san-jose or tx-austin)

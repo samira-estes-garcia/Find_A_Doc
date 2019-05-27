@@ -30,7 +30,6 @@ nav a {
 nav a:hover {
     color: rgb(243, 37, 19);
     text-decoration: underline;
-    font-size: 25px;
 }
 
 header {
@@ -70,6 +69,10 @@ header h1 {
     padding-right: 10px;
 }
 
+.landing input {
+    font-family: 'Roboto', sans-serif;
+}
+
 #doctorLocation, #special, #symptom {
     margin-right: 10px;
 }
@@ -88,6 +91,11 @@ header h1 {
 
   #submit-icon:hover {
       background-color: white;
+  }
+
+  .container p {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
   }
 
   .display-doctors {
@@ -127,6 +135,11 @@ header h1 {
       margin-left: auto;
       margin-right: auto;
       margin-top: 200px;
+  }
+
+  .location-error {
+      font-size: 16px;
+      color: red;
   }
 
   @media screen and (max-width: 1050px) {
